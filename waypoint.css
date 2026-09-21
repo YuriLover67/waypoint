@@ -1,0 +1,69 @@
+body {
+    background: black;
+    color: white;
+    padding: 20px;
+    font-family: nerd-font, sans-serif; 
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.disclaimer {
+    color: red;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.quiz {
+    margin-top: 30px;
+}
+
+fieldset {
+    margin: 10px 0;
+    color: white;
+    border-radius: 8px;
+    font-family: nerd-font, sans-serif;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: red;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#quiz-done {
+    color: green;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: nerd-font, sans-serif;
+}
+
+button.selected {
+    background-color: #7a5cff;
+    color: white;
+}
+
+#quiz-done:hover {
+    text-decoration: underline;
+}

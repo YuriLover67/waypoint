@@ -1,0 +1,22 @@
+body {
+    background: black;
+    color: white;
+    padding: 20px;
+    font-family: nerd-font, sans-serif; 
+}
+
+a:hover {
+    color: pink;
+}
+
+a {
+    margin: 5px 0;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+    display: block;
+}
